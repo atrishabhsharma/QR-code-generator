@@ -1,0 +1,2 @@
+qrcode                             6.1  
+tkinter                            2.4

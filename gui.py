@@ -46,6 +46,9 @@ class QRCODE():
 
     def printQR(self):
         text=ab.get() #value store
+        #### status bar ####
+        status = Label(root,text="processing....",bd=1,relief=SUNKEN,anchor=W)
+        status.pack(side=BOTTOM,fill=X)
         tkinter.messagebox.showinfo("GENERATED"," your QR-code is generated")       
         QR_print(text)
             
